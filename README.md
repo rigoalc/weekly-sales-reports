@@ -1,58 +1,47 @@
 # weekly-sales-reports
 The purpose of this program is to produce weekly sales report of various items sold, based on the owner's desire. The program is able to report different items based on the selection of the user.
 
+## THE CLASSROOM POINT OF VIEW IS:
+- Practice the ipo process.
+- Npractice the design of hierarchy and  continue practicing flowcharts,
+- Doing changes in process record module adding record selection.
+- Follow the structure of the code and the flowchart to find errors.
+- Practice with variables and constant, record definitions, file definition, module definitions.
+- Practice accum, averages.
+- Practice read, write, and move records.
+- In this assignment we again use pagination, 
+- We output 20 detail lines per page.
+- We use boolean to make a record selection, nested if and case, we can also use complex if or combined.
+- The markup code  is determine using a case structure. the discount percent is determined
+- Using a nested if.
+- I prefer to use a simple statment for comparation in the record selection module,
+- For make the weekle changes easier.
+- I try to use decimal for mark up percentage and decimal for the mark up amount. 
 
-' THE CLASSROOM POINT OF VIEW IS:
-'   PRACTICE THE IPO PROCESS.
-'   NPRACTICE THE DESIGN OF HIERARCHY AND  CONTINUE PRACTICING FLOWCHARTS,
-'   DOING CHANGES IN PROCESS RECORD MODULE ADDING RECORD SELECTION.
-'   FOLLOW THE STRUCTURE OF THE CODE AND THE FLOWCHART TO FIND ERRORS.
-'   PRACTICE WITH VARIABLES AND CONSTANT, RECORD DEFINITIONS, FILE DEFINITION, MODULE DEFINITIONS.
-'   PRACTICE ACCUM, AVERAGES.
-'   PRACTICE READ, WRITE, AND MOVE RECORDS.
-'   IN THIS ASSIGNMENT WE AGAIN USE PAGINATION, 
-'   WE OUTPUT 20 DETAIL LINES PER PAGE.
-'   WE USE BOOLEAN TO MAKE A RECORD SELECTION, NESTED IF AND CASE, WE CAN ALSO USE COMPLEX IF OR COMBINED.
-'   THE MARKUP CODE  IS DETERMINE USING A CASE STRUCTURE. THE DISCOUNT PERCENT IS DETERMINED
-'   USING A NESTED IF.
-'   I PREFER TO USE A SIMPLE STATMENT FOR COMPARATION IN THE RECORD SELECTION MODULE,
-'   FOR MAKE THE WEEKLE CHANGES EASIER.
-'   I TRY TO USE DECIMAL FOR MARK UP PERCENTAGE AND DECIMAL FOR THE MARK UP AMOUNT. 
+## THE BUSINESS POINT OF VIEW IS:
 
-' THE BUSINESS POINT OF VIEW IS:
+- The purpose of this program is to produce weekly sales report of various items sold, based on the owner's desire. the program is able to report different items based on the selection of the user.
 
-'   THE PURPOSE OF THIS PROGRAM IS TO PRODUCE WEEKLY SALES REPORT OF
+## THE PROGRAM DETAIL :
 
-'   VARIOUS ITEMS SOLD, BASED ON THE OWNER'S DESIRE.
+- Item Number 
+- Description
+- Wholesale price
+- Mark up code
+- Mark up percentage --based on the markup code ---
+- Mark up amount                       
+- Retail price                         
+- Quantity sold
+- Extended price
+- Discount percentage  --based on the qty sold---
+- Discount amount
 
-'   THE PROGRAM IS ABLE TO REPORT DIFFERENT ITEMS BASED ON THE SELECTION OF THE USER.
+## IN THE END OF THE REPORT THE TOTALS ANS AVERAGES:
 
-
-' THE PROGRAM DETAIL :
-'                       ITEM# 
-'                       DESCRIPTION
-'                       WHOLESALE PRICE
-'                       MARK UP CODE
-'                       MARK UP PERCENTAGE --BASED ON THE MARKUP CODE ---
-'                       MARK UP AMOUNT                       
-'                       RETAIL PRICE                         
-'                       QUANTITY SOLD
-'                       EXTENDED PRICE
-'                       DISCOUNT PERCENTAGE  --BASED ON THE QTY SOLD---
-'                       DISCOUNT AMOUNT
-
-' IN THE END OF THE REPORT THE TOTALS ANS AVERAGES:
-'                       FINAL AMOUNT DUE
-'                       FINAL TOTAL # ITEM SOLD
-'                       FINAL TOTAL EXTENDED PRICE
-'                       FINAL TOTAL DISCOUNTS
-'                       FINAL TOTAL DUE
-'                       AVERAGE DISCOUNT PER ITEM SOLD
-'                       AVERAGE PRICE PAID ITEM
-
-
-'  THE REPORT OUTPUT 20 DETAIL LINES PER PAGE AND
-
-'  SPECIFIED THE PAGE NUMBER AT THE TOP OF EACH PAGE.
-
-
+- Final amount due
+- Final total # item sold
+- Final total extended price
+- Final total discounts
+- Final total due
+- Average discount per item sold
+- Average price paid item
